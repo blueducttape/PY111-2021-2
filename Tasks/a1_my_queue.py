@@ -6,7 +6,7 @@ from typing import Any
 
 class Queue:
     def __init__(self):
-        self.__my_queue = [] 
+        self.__my_queue = []
 
     def enqueue(self, elem: Any) -> None:
         """
