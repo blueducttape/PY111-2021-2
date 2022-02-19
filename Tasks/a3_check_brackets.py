@@ -5,11 +5,6 @@ def check_brackets(brackets_row: str) -> bool:
     :param brackets_row: input string to be checked
     :return: True if valid, False otherwise
     """
-    length = len(brackets_row)
-    if length == 0:
-        return True
-    elif length % 2 == 1:
-        return False
     a = 0
     for i in brackets_row:
         if i == "(":
